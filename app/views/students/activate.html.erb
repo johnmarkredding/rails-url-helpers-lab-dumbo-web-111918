@@ -1,0 +1,5 @@
+<form action="/students/student/<%= @student.id %>" method="GET">
+  <label>Activate Student <%= @student.to_s %></label>
+  <input type="checkbox" name="student[active]" value="true">
+  <input type="submit" value="Submit">
+</form>
